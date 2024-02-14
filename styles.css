@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* background-color: bisque; */
+    background-image: url("./assets/602829.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100wh;
+    min-height: 100vh;
+    border: 10px solid #ce0228;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #ce0228;
+}
+
+h2 {
+    color: rgba(199, 193, 176, 255);
+    text-align: end;
+}
+
+.top-section {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.about-section {
+    margin-top: 5%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: rgba(199, 193, 176, 255);
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    color: rgba(199, 193, 176, 255);
+    line-height: 20px;
+}
+
+.about-section>p {
+    text-align: justify;
+}
+
+.awards-section>h3 {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.content {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.img-container,
+img {
+    border-radius: 7px;
+    width: 500px;
+}
+
+.awards-section {
+    margin-bottom: 3%;
+}
+
+ul {
+    color: rgba(199, 193, 176, 255);
+    margin-left: 1.55%;
+}
+
+footer {
+    margin-bottom: 3%;
+}
+
+footer>p {
+
+    text-align: end;
+}
